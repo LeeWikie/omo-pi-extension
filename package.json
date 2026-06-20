@@ -1,0 +1,46 @@
+{
+	"name": "omo-pi-extension",
+	"version": "0.1.0",
+	"description": "Pi extension for OhMyOpenCode",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"pi": {
+		"extensions": [
+			"./dist/index.js"
+		]
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"typecheck": "tsc --noEmit -p tsconfig.json",
+		"check": "npm run typecheck && npm test",
+		"test": "vitest",
+		"clean": "rm -rf dist",
+		"local:install:pi": "bash scripts/local-install.sh",
+		"local:rollback": "bash scripts/local-rollback.sh",
+		"verify:pi-load": "bash scripts/verify-pi-load.sh"
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "^0.79.0"
+	},
+	"dependencies": {
+		"@sinclair/typebox": "^0.34.0"
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3",
+		"vitest": "^3.1.0",
+		"@types/node": "^22.0.0"
+	},
+	"engines": {
+		"node": ">=22.19"
+	}
+}

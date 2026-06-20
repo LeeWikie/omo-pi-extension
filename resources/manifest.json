@@ -1,0 +1,191 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-06-20T00:00:00Z",
+  "sourceRepo": "oh-my-openagent",
+  "description": "Data-only resource manifest for OMO Pi Extension. Lists all ported skills, prompts, and assets with provenance tracking back to the OMO source repository.",
+  "resources": [
+    {
+      "name": "skill-ast-grep",
+      "sourcePath": "packages/shared-skills/skills/ast-grep/SKILL.md",
+      "targetPath": "resources/skills/ast-grep/SKILL.md",
+      "type": "skill",
+      "notes": "AST-aware code search and rewrite guidance. Pure documentation."
+    },
+    {
+      "name": "skill-debugging",
+      "sourcePath": "packages/shared-skills/skills/debugging/SKILL.md",
+      "targetPath": "resources/skills/debugging/SKILL.md",
+      "type": "skill",
+      "notes": "Hypothesis-driven debugger methodology. Pure documentation."
+    },
+    {
+      "name": "skill-frontend",
+      "sourcePath": "packages/shared-skills/skills/frontend/SKILL.md",
+      "targetPath": "resources/skills/frontend/SKILL.md",
+      "type": "skill",
+      "notes": "Frontend/UI/UX design and implementation guidance. Pure documentation."
+    },
+    {
+      "name": "skill-git-master",
+      "sourcePath": "packages/shared-skills/skills/git-master/SKILL.md",
+      "targetPath": "resources/skills/git-master/SKILL.md",
+      "type": "skill",
+      "notes": "Git operations and history investigation guidance. Pure documentation."
+    },
+    {
+      "name": "skill-init-deep",
+      "sourcePath": "packages/shared-skills/skills/init-deep/SKILL.md",
+      "targetPath": "resources/skills/init-deep/SKILL.md",
+      "type": "skill",
+      "notes": "AGENTS.md knowledge base initialization guidance. Pure documentation."
+    },
+    {
+      "name": "skill-lsp-setup",
+      "sourcePath": "packages/shared-skills/skills/lsp-setup/SKILL.md",
+      "targetPath": "resources/skills/lsp-setup/SKILL.md",
+      "type": "skill",
+      "notes": "Language Server configuration guidance. Pure documentation."
+    },
+    {
+      "name": "skill-programming",
+      "sourcePath": "packages/shared-skills/skills/programming/SKILL.md",
+      "targetPath": "resources/skills/programming/SKILL.md",
+      "type": "skill",
+      "notes": "Multi-language programming discipline guidance. Pure documentation."
+    },
+    {
+      "name": "skill-refactor",
+      "sourcePath": "packages/shared-skills/skills/refactor/SKILL.md",
+      "targetPath": "resources/skills/refactor/SKILL.md",
+      "type": "skill",
+      "notes": "Intelligent refactoring command guidance. Pure documentation."
+    },
+    {
+      "name": "skill-remove-ai-slops",
+      "sourcePath": "packages/shared-skills/skills/remove-ai-slops/SKILL.md",
+      "targetPath": "resources/skills/remove-ai-slops/SKILL.md",
+      "type": "skill",
+      "notes": "AI-generated code smell removal guidance. Pure documentation."
+    },
+    {
+      "name": "skill-review-work",
+      "sourcePath": "packages/shared-skills/skills/review-work/SKILL.md",
+      "targetPath": "resources/skills/review-work/SKILL.md",
+      "type": "skill",
+      "notes": "Post-implementation review orchestrator guidance. Pure documentation."
+    },
+    {
+      "name": "skill-start-work",
+      "sourcePath": "packages/shared-skills/skills/start-work/SKILL.md",
+      "targetPath": "resources/skills/start-work/SKILL.md",
+      "type": "skill",
+      "notes": "Work plan execution orchestrator guidance. Pure documentation."
+    },
+    {
+      "name": "skill-ultraresearch",
+      "sourcePath": "packages/shared-skills/skills/ultraresearch/SKILL.md",
+      "targetPath": "resources/skills/ultraresearch/SKILL.md",
+      "type": "skill",
+      "notes": "Maximum-saturation research orchestration guidance. Pure documentation."
+    },
+    {
+      "name": "skill-ulw-plan",
+      "sourcePath": "packages/shared-skills/skills/ulw-plan/SKILL.md",
+      "targetPath": "resources/skills/ulw-plan/SKILL.md",
+      "type": "skill",
+      "notes": "Explore-first planning consultant guidance. Pure documentation."
+    },
+    {
+      "name": "skill-visual-qa",
+      "sourcePath": "packages/shared-skills/skills/visual-qa/SKILL.md",
+      "targetPath": "resources/skills/visual-qa/SKILL.md",
+      "type": "skill",
+      "notes": "Visual QA dual-oracle verification guidance. Pure documentation."
+    },
+    {
+      "name": "skill-lcx-contribute-bug-fix",
+      "sourcePath": "packages/shared-skills/skills/lcx-contribute-bug-fix/SKILL.md",
+      "targetPath": "resources/skills/lcx-contribute-bug-fix/SKILL.md",
+      "type": "skill",
+      "notes": "LazyCodex/Codex bug fix contribution guidance. Codex-specific."
+    },
+    {
+      "name": "skill-lcx-doctor",
+      "sourcePath": "packages/shared-skills/skills/lcx-doctor/SKILL.md",
+      "targetPath": "resources/skills/lcx-doctor/SKILL.md",
+      "type": "skill",
+      "notes": "LazyCodex/Codex install health diagnosis guidance. Codex-specific."
+    },
+    {
+      "name": "skill-lcx-report-bug",
+      "sourcePath": "packages/shared-skills/skills/lcx-report-bug/SKILL.md",
+      "targetPath": "resources/skills/lcx-report-bug/SKILL.md",
+      "type": "skill",
+      "notes": "LazyCodex/Codex bug reporting guidance. Codex-specific."
+    },
+    {
+      "name": "skill-github-triage",
+      "sourcePath": ".opencode/skills/github-triage/SKILL.md",
+      "targetPath": "resources/skills/github-triage/SKILL.md",
+      "type": "skill",
+      "notes": "Read-only GitHub triage orchestrator guidance. Project-scope skill."
+    },
+    {
+      "name": "skill-hyperplan",
+      "sourcePath": ".opencode/skills/hyperplan/SKILL.md",
+      "targetPath": "resources/skills/hyperplan/SKILL.md",
+      "type": "skill",
+      "notes": "Adversarial multi-agent planning guidance. Project-scope skill."
+    },
+    {
+      "name": "skill-pre-publish-review",
+      "sourcePath": ".opencode/skills/pre-publish-review/SKILL.md",
+      "targetPath": "resources/skills/pre-publish-review/SKILL.md",
+      "type": "skill",
+      "notes": "16-agent pre-publish release gate guidance. Project-scope skill."
+    },
+    {
+      "name": "skill-work-with-pr",
+      "sourcePath": ".opencode/skills/work-with-pr/SKILL.md",
+      "targetPath": "resources/skills/work-with-pr/SKILL.md",
+      "type": "skill",
+      "notes": "Full PR lifecycle skill guidance. Project-scope skill."
+    },
+
+    {
+      "name": "prompt-get-unpublished-changes",
+      "sourcePath": ".opencode/command/get-unpublished-changes.md",
+      "targetPath": "resources/prompts/get-unpublished-changes.md",
+      "type": "prompt",
+      "notes": "Slash command prompt: compare HEAD with latest published npm version."
+    },
+    {
+      "name": "prompt-omomomo",
+      "sourcePath": ".opencode/command/omomomo.md",
+      "targetPath": "resources/prompts/omomomo.md",
+      "type": "prompt",
+      "notes": "Slash command prompt: easter egg about oh-my-opencode."
+    },
+    {
+      "name": "prompt-publish",
+      "sourcePath": ".opencode/command/publish.md",
+      "targetPath": "resources/prompts/publish.md",
+      "type": "prompt",
+      "notes": "Slash command prompt: publish to npm via GitHub Actions."
+    },
+    {
+      "name": "prompt-remove-deadcode",
+      "sourcePath": ".opencode/command/remove-deadcode.md",
+      "targetPath": "resources/prompts/remove-deadcode.md",
+      "type": "prompt",
+      "notes": "Slash command prompt: remove unused code with LSP verification."
+    },
+    {
+      "name": "prompt-security-research",
+      "sourcePath": ".opencode/command/security-research.md",
+      "targetPath": "resources/prompts/security-research.md",
+      "type": "prompt",
+      "notes": "Slash command prompt: security research audit."
+    }
+  ]
+}
