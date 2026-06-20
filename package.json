@@ -27,7 +27,8 @@
 		"clean": "rm -rf dist",
 		"local:install:pi": "bash scripts/local-install.sh",
 		"local:rollback": "bash scripts/local-rollback.sh",
-		"verify:pi-load": "bash scripts/verify-pi-load.sh"
+		"verify:pi-load": "bash scripts/verify-pi-load.sh",
+		"prepublishOnly": "npm run clean && npm run build && npm test"
 	},
 	"peerDependencies": {
 		"@earendil-works/pi-coding-agent": "^0.79.0"
