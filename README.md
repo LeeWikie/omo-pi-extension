@@ -179,6 +179,12 @@ This package is a first-stage (`v0.1.0`) adapter and policy boundary implementat
 | [docs/parity.md](docs/parity.md) | Supported, partially supported, and unsupported capability breakdown |
 | [docs/unsupported-bypasses.md](docs/unsupported-bypasses.md) | Native Pi bypass paths outside extension ownership |
 
+## License
+
+The extension source code in this repository is released under the [MIT License](LICENSE).
+
+The Markdown skills and prompts under `resources/` are ported from [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) (each manifest entry keeps its `sourcePath`) and remain under that project's own license (Sustainable Use License); the MIT License does not apply to them.
+
 ## Contact
 
 For questions or feedback: me@neryc.net
