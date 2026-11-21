@@ -54,12 +54,10 @@ Restricted tools (process-spawn, network, global-config, long-lived-process) are
 
 ### Resources (data ports)
 
-These OMO resources are ported as static data in the `resources/` directory:
+These OMO resources are ported as static data in the `resources/` directory and indexed in `resources/manifest.json` (26 entries total):
 
-- **Skills**: ast-grep, debugging, frontend, git-master, init-deep, lsp-setup, programming, refactor, remove-ai-slops, review-work, hyperplan, pre-publish-review, security-audit, Docker, Java, Python, Python-dev, Python-code-review, React, UI-UX-pro-max
-- **Prompts**: oracle, prometheus, hephaestus, sisyphus, explore, librarian, metis, momus agent prompt templates
-- **Assets**: OMO logo and branding assets
-- **Command configs**: OpenCode and Claude command prompt files (static Markdown, not executable without a Pi command adapter)
+- **Skills (21)**: `ast-grep`, `debugging`, `frontend`, `git-master`, `init-deep`, `lsp-setup`, `programming`, `refactor`, `remove-ai-slops`, `review-work`, `start-work`, `ultraresearch`, `ulw-plan`, `visual-qa`, `lcx-contribute-bug-fix`, `lcx-doctor`, `lcx-report-bug`, `github-triage`, `hyperplan`, `pre-publish-review`, `work-with-pr`
+- **Prompts (5)**: `get-unpublished-changes`, `omomomo`, `publish`, `remove-deadcode`, `security-research`
 
 All resources are accessible through `omo.resources.get` and `omo.resources.list` commands.
 
@@ -149,7 +147,7 @@ These capabilities are not ported because Pi's extension API does not expose the
 | Supported (commands) | 10 |
 | Supported (tools) | 7 |
 | Supported (lifecycle hooks) | 6 |
-| Supported (resources) | 35+ |
+| Supported (resources) | 26 |
 | Supported (permission classes) | 6 |
 | Partially supported | 14 |
 | Unsupported (commands) | 3 |

@@ -18,8 +18,8 @@ operating-system sandbox for extension code. Pi extensions run as TypeScript
 modules with the permissions of the user account that started Pi. Stronger
 isolation must come from a container, VM, micro-VM, or host policy sandbox.
 
-Reference: `/root/openpi/pi/packages/coding-agent/docs/security.md` in this
-workspace, and the upstream Pi security documentation for the same package.
+Reference: upstream Pi security documentation in the
+`@earendil-works/pi-coding-agent` package (`docs/security.md`).
 
 ## Permission classes
 
